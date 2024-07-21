@@ -3,6 +3,12 @@
             width: 300px;
             background-color: lightblue;
             border: 15px solid blue;
-            padding: 50px;
-            margin: 20px;
+			align-content:ceter;
+			
 		}
+body{
+	background-color:green;
+	margin:20px;https://www.svgrepo.com/show/345223/three-dots-vertical.svg
+	padding:50px;
+	
+}
