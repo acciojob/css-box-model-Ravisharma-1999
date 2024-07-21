@@ -1,55 +1,22 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello, World!</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-     <div class="Card_Container">
-       <div class="Card_Content">Card</div>
-       <h2 class="card_header">Card Header</h2>
-       <footer class="card_footer">Card Footer</footer>
-     </div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Demo</title>
+    <style>
+        .box-model {
+            width: 300px;
+            background-color: lightblue;
+            border: 15px solid blue;
+            padding: 50px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-model">
+        This is a demo of box model, try to replicate this box model in Html & Css and pass all the test cases.
+    </div>
+</body>
 </html>
-
-*****CSS PART*****
-body{
-  padding: 25px;
-}
-.title {
-	color: #5C6AC4;
-}
-
-*{
-  width: 100%;
-  
-}
-.Card_Container{
-  width: 300px;
-  padding: 20px;
-  border: 5px solid gray;
-  margin: :15px;
-  background-color:blue;
-}
-
-.Card_Content{
-  padding: 10px;
-  border: 2px dotted blue ;
-  background-color: white;
-  
-}
-.card_header{
-  height: 40px ;
-  padding: 5px;
-  border:3px solid darkblue ;
-  background-color:darkblue ;
-  color: white;
-}
-.card_footer{
-  height: 40px;
-  padding: 5px;
-  border: 2px dashed green ;
-  background-color: lightgreen;
-  color:darkgreen ;
-}
