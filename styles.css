@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fff;
+}
+
+.box {
+    width: 300px;
+    padding: 50px;
+    border: 15px solid blue;
+    margin: 20px;
+    background-color: lightblue;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+}
